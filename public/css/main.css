@@ -1,0 +1,99 @@
+*{
+    margin:0 auto;
+    padding: 0 auto;
+}
+a{
+    cursor: pointer;
+    font-size: 16px;
+}
+span{
+    font-size: 16px;
+}
+
+.main-header{
+    height:300px;
+    background-repeat: no-repeat;
+    background-image: url("/public/image/1.png");
+    background-size: cover;
+}
+
+.navbar{
+    margin-bottom: 0;
+}
+.navbar-nav {
+    float: none;
+    text-align:center;
+}
+ul.nav.navbar-nav  li {
+    float:none;
+    display: inline-block;
+    margin: 0em;
+}
+
+nav{
+}
+
+section{
+    padding-top: 20px;
+    background-color: #ebebeb;
+    display: block;
+}
+article{
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.post {
+    padding: 35px;
+    background: #ffffff;
+    margin-bottom: 35px;
+    position: relative;
+    overflow: hidden;
+}
+
+.post-content{
+    margin-top: 20px;
+}
+p{
+    font-size: 20px;
+    font-family: 微软雅黑;
+    color: #999999;
+}
+
+.info{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 35px;
+
+}
+
+.title{
+    position: relative;
+    font-size: 18px;
+}
+
+.info .title::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: -webkit-linear-gradient(left,#e67e22,#e67e22 23%, bisque 23%,bisque );
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    box-sizing: border-box;
+}
+.myregister{
+    display: none;
+}
+
+form{
+    margin-top: 20px;
+}
+.mybtn{
+    width: 100%;
+}
+.reginfo{
+    display: block;
+    text-align: right;
+}
+
